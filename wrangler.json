@@ -6,7 +6,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "erp",
-  "main": "erp-backend/src/index.ts",
+  "main": "index.ts",
   "compatibility_date": "2025-01-09",
   "minify" : true,
   "observability": {
