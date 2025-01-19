@@ -2,10 +2,11 @@
  * For more details on how to configure Wrangler, refer to:
  * https://developers.cloudflare.com/workers/wrangler/configuration/
  */
+
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "erp",
-  "main": "src/index.ts",
+  "main": "./src/index.ts",
   "compatibility_date": "2025-01-09",
   "minify" : true,
   "observability": {
